@@ -1,4 +1,11 @@
-The **Makerere University Maize Image Dataset** was created to provide an open, well-labelled, sufficiently curated and accessible maize image dataset. Data scientists, researchers, and the broader machine learning community can use the dataset for various machine learning experiments to build maize crop disease diagnosis and spatial analysis solutions.
+The **Makerere University Maize Image Dataset** was created to provide an open, well-labelled, sufficiently curated and accessible maize image dataset. Data scientists, researchers, and the broader machine learning community can use the dataset for various machine learning experiments to build maize crop disease diagnosis and spatial analysis solutions. The dataset contains maize image data collected across the different regions in Uganda. The dataset has image samples collected from significant maize growing districts selected with the guidance of agricultural experts to obtain a representative dataset.
+
+Note, similar **Makerere University Maize Image Dataset** datasets are also available on the [DatasetNinja.com](https://datasetninja.com/):
+
+- [The KaraAgro AI Maize Dataset](https://datasetninja.com/kara-agro-ai-maize)
+- [The KaraAgroAI Cocoa Dataset](https://datasetninja.com/kara-agro-ai-cocoa)
+- [Makerere University Beans Image Dataset](https://datasetninja.com/makerere-university-beans)
+- [Makerere University Cassava Image Dataset](https://datasetninja.com/makerere-university-cassava)
 
 ## Motivation
 
@@ -9,8 +16,7 @@ The current approach to data collection and crop pest and disease diagnosis is u
 ## Dataset Creation
 
 The dataset was created by scientists from the Makerere Artificial Intelligence Lab and the National Crops Resources Research Institute (NaCRRI) in Namulonge,
-Uganda. NaCRRI is an institute of the National Agricultural Research Organisation (NARO) in charge of crop research.
-Each instance is associated with a class label based on the status of the crop: healthy or diseased. The dataset consists of a crop image with an image status, i.e., ***healthy***, Maize Leaf Blight(***mlb***), Maize Streak Virus(***msv***). 
+Uganda. NaCRRI is an institute of the National Agricultural Research Organisation (NARO) in charge of crop research. Each instance is associated with a class label based on the status of the crop: healthy or diseased. The dataset consists of a crop image with an image status, i.e., ***healthy***, Maize Leaf Blight (***mlb***), Maize Streak Virus (***msv***). 
 
 <img src="https://user-images.githubusercontent.com/120389559/298060192-0d850509-90cb-40f9-9b2a-d2c69c181fc0.png" alt="image" width="800">
 
@@ -25,10 +31,3 @@ The maize image data was collected using mobile phones from farmer gardens. The 
 Individuals involved in the data collection process included a team of researchers from the Makerere Artificial Intelligence Lab, an agricultural expert affiliated with the cereals program at the National Crops Resources Research Institute (NaCRRI), and a district agricultural officer.
 
 The authors conducted thorough data cleaning procedures, eliminating blurry images, those captured under direct sunlight, and resolving inconsistencies in resolution. In certain instances, data collectors manually input image attribute variables such as crop variety. Modifications to predetermined attributes like districts and sub-counties were made during the data collection phase, leading to inconsistencies in the generated dataset. These inconsistencies manifested as variations in reporting and corrections to district/sub-county information when data had been collected from a different location. The resolution of these inconsistencies was addressed during the subsequent data cleaning process.
-
-Note, similar **Makerere University Maize Image Dataset** datasets are also available on the [DatasetNinja.com](https://datasetninja.com/):
-
-- [The KaraAgro AI Maize Dataset](https://datasetninja.com/kara-agro-ai-maize)
-- [The KaraAgroAI Cocoa Dataset](https://datasetninja.com/kara-agro-ai-cocoa)
-- [Makerere University Beans Image Dataset](https://datasetninja.com/makerere-university-beans)
-- [Makerere University Cassava Image Dataset](https://datasetninja.com/makerere-university-cassava)
