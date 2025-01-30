@@ -1,6 +1,6 @@
 Dataset **Makerere University Maize** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/siy8p2f3da7q9k667dvzh/makerere-university-maize-DatasetNinja.tar?rlkey=z6k6isi0foihu920mkobl5flx&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzMzODBfTWFrZXJlcmUgVW5pdmVyc2l0eSBNYWl6ZS9tYWtlcmVyZS11bml2ZXJzaXR5LW1haXplLURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogIml5YW44eDlOb2xRM2NFZUdxeGhaS2p0NncyMHR6NlpINU5KZ3NFSkl0dnM9In0=)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
